@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>template-mlm</title>
+</head>
+<body>
+     <!-- MODAL formulaire-->
+     <div class="modal-container" id="modal-container">
+        <div class="modal-body">
+            <div class="modal-header">
+                <h4>Modal test</h4>
+                <button type="button" class="btn-close" id="modal-close"></button>
+            </div>
+            <div class="modal-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="formulaire-block">
+                                <form action="#" method="POST">
+                                    <div class="row">
+                                        <div class="col-lg-12 d-flex">
+                                             <div class="input-group">
+                                                <label for="surname">Prénom</label>
+                                                <input type="text" id="surname" name="surname">
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="name">Nom</label>
+                                                <input type="text" id="name" name="name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="input-group">
+                                                <label for="phone">Téléphone</label>
+                                                <input type="number" id="phone" name="phone">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email">
+                                    </div>
+                                    <p class="text-center m-5"><strong>Merci de nous faire confiance!</strong> <br/>Nous allons vous recontacter dans les plus brefs délais.</p>
+                                    <button class="btn-mlm btn-contact">Envoyer mon inscription</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+
+    <header id="container-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Template MlM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link mx-2 active" aria-current="page">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/formation.html" class="nav-link mx-2 active" aria-current="page">Nos formations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/marketingReseau.html" class="nav-link mx-2 active" aria-current="page">Marketing de réseau</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/contact.html" class="nav-link mx-2 active" aria-current="page">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button href="#" id="btn-modal"class="nav-link mx-2 btn-mlm-nav " aria-current="page">Devenir distributeur</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main>
+        <section id="s-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Formations certifiantes à domicile</h1>
+                        <p>Orientées vers les compétences du digital et les métiers de demain.</p>
+                        <a href="/pages/formation.html" class="btn-mlm">> Voir toutes les formations</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="s-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-center">
+                        <div class="container-img">
+                            <a href="#">
+                                <img class="mcf" src="images/offre_eligible_mcf_carre_fond_bleu_mini_format_max_20mm_RVB.png" alt="">
+                            </a>
+                            <p>Nos prestations sont finançables par le CPF</p> 
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <div class="container-img">
+                            <a href="#">
+                                <img class="qualio"src="images/LogoQualiopi.png" alt="">
+                            </a>
+                            <p>La certification qualité a été délivrée au titre des catégories d'actions suivantes : <br/><span>ACTIONS DE FORMATIONS<br/> BILANS DE COMPÉTENCES</span></p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="s-3"></section>
+        <section id="s-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Notre équipe est composée <br/>de formateurs experts diplômés.</h2>
+                        <p>Appicity Formation est un organisme de formation dont l’activité pédagogique est organisée autour d’un centre de ressources conçu et animé par des professionnels de la formation individualisée.</p>
+                        <a class="btn-mlm" href="#"> > L'équipe Template MlM</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="s-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Trouver ma formation</h2>
+                        <p>Découvrez toutes nos formations éligibles au CPF.<br/>Trouvez la formation qui vous convient.</p>
+                    </div>
+                </div>
+                <!--MAPPING MAIN.JS-->
+                <div class="row" id="list-formation-accueil"></div>
+                 <!--MAPPING MAIN.JS-->
+                <div class="row">
+                    <div class="col-lg-12 text-center ">
+                        <a class="btn-blue" href="#"> > Voir toutes les formations</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+        <section id="s-6">
+            <div class="superposition-arriere-plan">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-3">
+                            <div class="icon-container">
+                                <i class="fas fa-users"></i>
+                                <p  class="icon-title">+ 1000</p>
+                                <p>APPRENANTS EN 2021</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="icon-container">
+                                <i class="fas fa-bookmark"></i>
+                                <p class="icon-title">14</p>
+                                <p>FORMATIONS CERTIFIANTES</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="icon-container">
+                                <i class="fas fa-user-graduate"></i>
+                                <p class="icon-title">6</p>
+                                <p>INTERVENANTS EXPERTS</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="icon-container">
+                                <i class="fas fa-briefcase"></i>
+                                <p class="icon-title" >3</p>
+                                <p>DOMAINES DE COMPÉTENCES</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--FOOTER-->
+    <footer id="container-footer"></footer>
+    <!--FOOTER-->
+    <section id="copyright">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <p>All right reserved - Appicity formation </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="/js/main.js"></script>
+    <script src="/js/modal.js"></script>
+</body>
+
+</html>

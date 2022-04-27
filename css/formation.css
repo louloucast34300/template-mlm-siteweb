@@ -1,0 +1,11 @@
+/*FORMATIONS*/
+/*section 1*/
+.s-1-f{
+   background-color: blue;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:150px 0px;
+}
+.s-1-f .background{
+    background-color:rgba(103,88,245,.5);
+}
