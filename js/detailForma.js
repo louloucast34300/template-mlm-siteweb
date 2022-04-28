@@ -106,6 +106,11 @@ section2.innerHTML = formationInfo;
 
 let formationPrerequis = `
 <div class="details">
+    <h5 class="title-detail"><i class="fas fa-link"></i> INFORMATIONS</h5>
+    <p><span>Référence :</span> ${data[0].info.ref}</p>
+    <p><span>Version du cours :</span> La dernière version a été mis a jour le ${data[0].info.version}</p>
+</div>
+<div class="details">
     <h5 class="title-detail"><i class="fas fa-user-friends"></i> PUBLIC VISÉ</h5>
     <p>${data[0].info.public_target}</p>
 </div>
