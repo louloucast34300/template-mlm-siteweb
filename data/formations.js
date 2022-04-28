@@ -1504,23 +1504,7 @@ export const formation = [
             },
         ]
     },
-    {
-        id:7,
-        type:'BILAN DE COMPÉTENCES',
-        formation:[
-            {
-                id_forma:27,
-                title:'Bilan de compétences',
-                sub_title: '',
-                nb_hours : 10,
-                price:'1.000€',
-                type: 'BILAN DE COMPÉTENCES',
-                level:'Débutant',
-                img:'../images/formations/bilan1.png',
-                page_detail:'/formationDetail.html',
-            },
-        ]
-    },
+   
 ]
   
 

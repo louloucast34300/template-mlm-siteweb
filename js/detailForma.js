@@ -9,11 +9,7 @@ const section2 = document.getElementById('s-2-d');
 const prerequis = document.getElementById('prerequis');
 const detailModule = document.getElementById('detail-module');
 
-
-
 const formationArray = formation;
-
-
 
 const getData = () =>{
 const array = [];

@@ -34,11 +34,6 @@ export const accueilFormation = [
         name:'PHOTOSHOP',
         img:'/images/5.png',
         
-    },
-    {
-        id:7,
-        name:'BILAN DE COMPÉTENCES',
-        img:'/images/bilan-de-competences-12-1.png',
-
-    },
+    }
+   
 ]

@@ -3,9 +3,10 @@ section{padding:100px 0px;}
 h1{margin:20px 0px;font-size:45px;font-weight:700;}
 h2{font-size:35px;font-weight:700;}
 p{margin:20px 0px;font-size:15px;}
-.bg-light{position: fixed;width: 100%;background-color: white!important;}
+.bg-light{position: fixed;width: 100%;background-color: white!important;z-index: 1000}
 img{width:100%;}
 div:target {padding-top: 12em; margin-top: -12em;}
+
 
 /*BTN*/
 .btn-mlm-nav{color:white !important;background-color:#FE9843;padding:8px 20px;border-radius:5px;border:none}
@@ -118,19 +119,19 @@ footer img{width: 150px; height: 150px; object-fit: cover; border-radius:50%; ma
     background-color:rgba(83, 101, 200, 0.5);
     padding:200px 0px;
 }
-#s-2-f .title-forma{font-size:30px; background-color: #4054B2;padding:10px 0px;color:white;font-weight: normal;}
+#s-2-f .title-forma, #s-3-f .title-forma{font-size:30px; background-color: #4054B2;padding:10px 0px;color:white;font-weight: normal;}
 #s-2-f .forma-block{padding:50px 0px;}
 .forma-card{box-shadow: 2px 4px 10px -5px rgba(0,0,0,0.5);margin:20px;padding:15px;min-height:500px;}
 .forma-card h4{font-size:18px;font-weight:600;color:rgb(81, 81, 81);text-align:center;margin:10px;min-height:70px;}
 .forma-card a img{width:100%;padding:8px;transition:all .2s ease-in-out;}
 .forma-card a img:hover{transform:scale(.95); transition:all .2s ease-in-out;}
 .type-forma{font-size: 16px;font-weight: 300;color: #A1A1A1;text-align:center;}
-#s-2-f .info{display:flex; flex-direction:row; justify-content: space-around;}
-#s-2-f .info .nb-hours{font-size:13px; font-weight:normal;}
-#s-2-f .info .nb-hours i{color:#dd721b; margin-right:10px;}
-#s-2-f .info .price{font-weight: bold;}
-#s-2-f .btn-mlm{font-weight: lighter; font-size:15px;}
-
+#s-2-f .info, #s-3-f .info{display:flex; flex-direction:row; justify-content: space-around;}
+#s-2-f .info .nb-hours,  #s-3-f .info .nb-hours{font-size:13px; font-weight:normal;}
+#s-2-f .info .nb-hours i,  #s-3-f .info .nb-hours i{color:#dd721b; margin-right:10px;}
+#s-2-f .info .price,  #s-3-f .info .price{font-weight: bold;}
+#s-2-f .btn-mlm,  #s-3-f .btn-mlm{font-weight: lighter; font-size:15px;}
+#s-3-f{padding: 0px;}
 /*MARKETING RESEAU*/
 #s-1-m{
     background-image:url('../images/marketing-header.png');
@@ -284,3 +285,32 @@ margin-bottom:100px;}
     font-weight:bold;
     margin-top:30px;
 }
+
+/* BILAN DE COMPETENCE */
+.bilan-subtitle{
+    font-size:15px;
+    font-weight:normal;
+    color:rgba(0, 0, 0, 0.54);
+}
+.bilan-title{
+    color:rgb(23, 68, 158);
+    font-size:40px;
+    font-weight: bold;
+}
+.col-left-bilan{
+    background-color: #F8F8F8;
+    box-shadow: 2px 4px 10px -5px rgba(0,0,0,0.5);
+}
+.left-block-bilan,.right-block-bilan{padding:40px 20px}
+.info-bilan{display:flex; flex-direction:row;align-items: center;}
+.info-bilan i{color:#dd721b; font-size:25px;width:30px;}
+.info-bilan p{color:#17449E; margin-left:10px;}
+.left-block-bilan .btn-mlm{display:block;text-align: center; }
+
+.col-right-bilan{
+    background-color: #17449E;color:white;
+}
+.right-block-bilan{padding:100px 30px;}
+.col-right-bilan p{font-weight:lighter}
+.col-right-bilan ul li{font-weight:lighter}
+.right-block-bilan i{color:white;font-size:25px;}
