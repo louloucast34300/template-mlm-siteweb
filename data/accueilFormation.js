@@ -34,6 +34,18 @@ export const accueilFormation = [
         name:'PHOTOSHOP',
         img:'/images/5.png',
         
+    },
+    {
+        id:7,
+        name:'ENTREPRISE',
+        img:'/images/5.png',
+        
+    },
+    {
+        id:8,
+        name:'BILAN',
+        img:'/images/5.png',
+        
     }
    
 ]

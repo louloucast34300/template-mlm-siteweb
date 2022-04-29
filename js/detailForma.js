@@ -26,7 +26,7 @@ const array = [];
     let mapModule = module.map((item,index)=>{
         return(
             `<p class="module">${item}</p>
-            <p class="resume">${resume[index]}</p>`
+           <!-- <p class="resume">${resume[index]}</p>-->`
         )
     }).join('');
 
@@ -44,6 +44,7 @@ const array = [];
         <h5 class="title-detail"><i class="fas fa-book-reader"></i> CONTENU</h5>
         ${mapModule}
         <h5 class="title-detail"><i class="fab fa-whmcs"></i>COMPÉTENCE</h5>
+        <p>À l’issue de cette prestation, vous serez capable de :</p>
         ${mapCompetence}
     `
     detailModule.innerHTML = formationModule;
@@ -69,11 +70,11 @@ const array = [];
                 </div>
                 <div class="flex-info">
                     <i class="fas fa-align-justify"></i>
-                    <p>4 semaines + Certification</p>
+                    <p>${data[0].content.nb_module} modules</p>
               </div>
             </div>
             <img src=${data[0].img} alt="">
-            <p class="text-forma">La formation est ouverte à toutes les personnes dont l’anglais n’est pas la langue maternelle et qui souhaitent améliorer leurs compétences d’écoute et de lecture aﬁn de renforcer leur employabilité.</p>
+            <p class="text-forma">${data[0].info.public_target}</p>
             </div>
         </div>
         <div class="col-lg-3">
@@ -129,8 +130,7 @@ let formationPrerequis = `
     <h5 class="title-detail"><i class="fas fa-clock"></i> PÉRIODE DE RÉALISATION</h5>
     <p><span>Date d'entrée:</span> selon les besoins de l'apprenant.</p>
     <p><span>Durée:</span> durée estimée à ${data[0].nb_hours} heures.</p>
-    <p><span>Rythme:</span> la formation peut être suivie sur un rythme libre,
-    nous recommandons néanmoins de mobiliser 1h de travail personnel par jour.</p>
+    <p><span>Rythme:</span> ${data[0].info.rythme}.</p>
 </div>
 <div class="details">
     <h5 class="title-detail"><i class="fas fa-euro-sign"></i> CONDITIONS TARIFAIRES</h5>
@@ -144,21 +144,20 @@ let formationPrerequis = `
     <p><span>Délai d'accès:</span> 11 jours ouvrés après la contractualisation, les modules de formation sont débloqués et le stagiaire peut débuter la formation.</p>
 </div>
 <div class="details">
-    <h5 class="title-detail"><i class="far fa-list-alt"></i> CONDITIONS GÉNÉRALES DE VENTE</h5>
-    <p>${data[0].info.CGV}</p>
-</div>
-<div class="details">
     <h5 class="title-detail"><i class="far fa-list-alt"></i> MODALITÉS D'ACCOMPAGNEMENT</h5>
     <p>${data[0].info.accompagnement}</p>
 </div>
 <div class="details">
     <h5 class="title-detail"><i class="fas fa-pencil-ruler"></i>MODALITÉS PÉDAGOGIQUES</h5>
-    <p><span>Approche pédagogique:</span> cette formation s’appuie sur une approche par compétences afin d’articuler l’acquisition de savoirs théoriques et pratiques réellement impliquées dans le monde professionnel autour d’objectifs formalisés.</p>
-    <p><span>Activités pédagogiques:</span>vidéos, ressources utiles, visioconférence avec un formateur.</p>
+    <p>${data[0].info.pedagogie}</p>
+
 </div>
 <div class="details">
     <h5 class="title-detail"><i class="fas fa-pencil"></i>MODALITÉS D'ÉVALUATION</h5>
-    <p>${data[0].info.evaluation}</p>
+    <p><strong>Avant la formation : </strong>${data[0].info.evaluation.avant}</p>
+    <p><strong>Pendant la formation : </strong>${data[0].info.evaluation.pendant}</p>
+    <p><strong>En fin de formation : </strong>${data[0].info.evaluation.fin}</p>
+    <p><strong>Après la formation : </strong>${data[0].info.evaluation.apres}</p>
 </div>
 <div class="details">
     <h5 class="title-detail"><i class="fas fa-medal"></i>MODALITÉS DE CERTIFICATION</h5>
