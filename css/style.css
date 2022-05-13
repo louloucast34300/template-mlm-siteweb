@@ -206,6 +206,10 @@ textarea{margin-top:10px;}
 .info-group i{
     font-size:24px; color:rgb(221, 114, 27);
 }
+.img-profil{
+    width:35%;
+    border-radius:50%;
+}
 
 /* FORMATION DETAIL*/
 #s-1-d{

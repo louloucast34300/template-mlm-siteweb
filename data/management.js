@@ -15,22 +15,33 @@ export const management =[
         price:'1.000€',
         type: 'MANAGEMENT',
         level:'Débutant',
-        img:'../images/formations/mana1.png',
+        img:'../images/formations/mana0.png',
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'MANAGEMENT1_APP',
+            ref:'management1',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite se former au management et développer le leadership afin de collaborer à la gestion des ressources humaines.',
+            public_target:'La formation est ouverte à toute personne qui souhaite se former au management et développer le leadership afin de collaborer à la gestion des ressources humaines',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Bloc 3 du BTS SAM – épreuve E6.',
+            stuff:`disposer d’un ordinateur et d’une connexion internet.`,
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'Bloc 3 du BTS SAM - épreuve E6',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -73,18 +84,29 @@ export const management =[
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'MANAGEMENT1_APP',
+            ref:'management2',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite se former au management et développer le leadership afin de collaborer à la gestion des ressources humaines.',
+            public_target:'La formation est ouverte à toute personne qui souhaite se former au management et développer le leadership afin de collaborer à la gestion des ressources humaines',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Bloc 3 du BTS SAM – épreuve E6.',
+            stuff:`disposer d’un ordinateur et d’une connexion internet.`,
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'Bloc 3 du BTS SAM - épreuve E6',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -128,18 +150,29 @@ export const management =[
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'MANAGEMENT2_APP',
-            version:'03/01/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite se former au management et développer le leadership afin de collaborer à la gestion des ressources humaines.',
+            ref:'management3',
+            version:'28/04/2022',
+            public_target:'La formation est ouverte à toute personne qui souhaite se former au management et développer le leadership afin de collaborer à la gestion des ressources humaines',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Bloc 3 du BTS SAM – épreuve E6.',
+            stuff:`disposer d’un ordinateur et d’une connexion internet.`,
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'Bloc 3 du BTS SAM - épreuve E6',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -187,18 +220,29 @@ export const management =[
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'MANAGEMENT3_APP',
-            version:'03/01/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite se former au management et développer le leadership afin de collaborer à la gestion des ressources humaines.',
+            ref:'management4',
+            version:'28/04/2022',
+            public_target:'La formation est ouverte à toute personne qui souhaite se former au management et développer le leadership afin de collaborer à la gestion des ressources humaines',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Bloc 3 du BTS SAM – épreuve E6.',
+            stuff:`disposer d’un ordinateur et d’une connexion internet.`,
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'Bloc 3 du BTS SAM - épreuve E6',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'

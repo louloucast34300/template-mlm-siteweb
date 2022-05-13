@@ -5,6 +5,7 @@ export const user = {
     phone:"06787654543",
     email:'david.levy@template.com',
     img_user:'#',
-    postal:'18 rue de la République - 84000 AVIGNON'
+    postal:'18 rue de la République - 84000 AVIGNON',
+    img:'../images/profil.png'
     }
 

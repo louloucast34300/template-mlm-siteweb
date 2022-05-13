@@ -53,18 +53,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'WEPOA_APP',
+            ref:'bureautique10',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -119,18 +132,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'WEPO_APP',
+            ref:'bureautique9',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -181,18 +207,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'WEPA_APP',
+            ref:'bureautique8',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -243,18 +282,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'WEP_APP',
+            ref:'bureautique7',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -300,18 +352,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'WE_APP',
+            ref:'bureautique6',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -351,18 +416,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'WE_APP',
+            ref:'bureautique5',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -404,18 +482,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'WP_APP',
+            ref:'bureautique4',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -456,18 +547,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'WP_APP',
+            ref:'bureautique3',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -502,18 +606,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'W_APP',
+            ref:'bureautique2',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -547,18 +664,31 @@ export const bureautique = [
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'P_APP',
+            ref:'bureautique1',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite améliorer ses compétences en bureautique',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Utilisation d’un logiciel de tableur (ICDL – PCIE) – RS5590.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Sessions de classes virtuelles pour renforcer l'apprentissage et favoriser les interactions entre les apprenants et le formateur<br/>
+            - Sessions de mentorat pour renforcer la formation avec l'appui d'un expert<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:`Utilisation d'un logiciel de tableur (ICDL - PCIE)`,
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'

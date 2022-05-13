@@ -16,21 +16,33 @@ export const anglais =[
         price:'1.000€',
         type: 'LANGUES',
         level:'Débutant',
-        img:'../images/formations/Anglais1.png',
+        img:'../images/formations/Anglais0.png',
         page_detail:'/formationDetail.html',
         page_CPF:'#',
         info:{
-            ref:'ANGLAISDEB2_APP',
+            ref:'anglais1',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toutes les personnes dont l’anglais n’est pas la langue maternelle et qui souhaitent améliorer leurs compétences d’écoute et de lecture aﬁn de renforcer leur employabilité.',//
+            public_target:'La formation est ouverte à toutes les personnes dont l’anglais n’est pas la langue maternelle et qui souhaitent améliorer leurs compétences d’écoute et de lecture afin de renforcer leur employabilité.',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'la formation peut être suivie sur un rythme libre, nous recommandons néanmoins de mobiliser 1h de travail personnel par jour.',
             accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM et lors des temps d’échanges en anglais avec le formateur <br> La certiﬁcation des compétences se déroule lors d’un test adaptatif d’une heure réalisé à distance avec une surveillance en ligne.',
-            certificat:'Certiﬁcation en anglais LanguageCert Test of English LTE (écouter, lire) – niveaux A1-C2 (RS5453).',
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h
+            - Support de cours téléchargeables
+            - Plateforme avec accès pour la durée de la formation`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'Certification en anglais LanguageCert Test of English LTE (écouter, lire) - niveaux A1-C2 (RS5453)',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -80,17 +92,29 @@ export const anglais =[
         page_detail:'/formationDetail.html',
         page_CPF:'#',
         info:{
-            ref:'ANGLAISDEB2_APP',
+            ref:'anglais2',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toutes les personnes dont l’anglais n’est pas la langue maternelle et qui souhaitent améliorer leurs compétences d’écoute et de lecture aﬁn de renforcer leur employabilité.',//
+            public_target:'La formation est ouverte à toutes les personnes dont l’anglais n’est pas la langue maternelle et qui souhaitent améliorer leurs compétences d’écoute et de lecture afin de renforcer leur employabilité.',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur, d’une webcam, d’un micro et d’une connexion internet.',
-            financement:'par le CPF',
+            stuff:'disposer d’un ordinateur et d’une connexion internet.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'la formation peut être suivie sur un rythme libre, nous recommandons néanmoins de mobiliser 1h de travail personnel par jour.',
             accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM et lors des temps d’échanges en anglais avec le formateur <br> La certiﬁcation des compétences se déroule lors d’un test adaptatif d’une heure réalisé à distance avec une surveillance en ligne.',
-            certificat:'Certiﬁcation en anglais LanguageCert Test of English LTE (écouter, lire) – niveaux A1-C2 (RS5453).',
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h
+            - Support de cours téléchargeables
+            - Plateforme avec accès pour la durée de la formation`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'Certification en anglais LanguageCert Test of English LTE (écouter, lire) - niveaux A1-C2 (RS5453)',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -140,17 +164,29 @@ export const anglais =[
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'ANGLAISDEB4_APP',
+            ref:'anglais3',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toutes les personnes dont l’anglais n’est pas la langue maternelle et qui souhaitent améliorer leurs compétences d’écoute et de lecture aﬁn de renforcer leur employabilité.',//
+            public_target:'La formation est ouverte à toutes les personnes dont l’anglais n’est pas la langue maternelle et qui souhaitent améliorer leurs compétences d’écoute et de lecture afin de renforcer leur employabilité.',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur, d’une webcam, d’un micro et d’une connexion internet.',
-            financement:'par le CPF',
+            stuff:'disposer d’un ordinateur et d’une connexion internet.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'la formation peut être suivie sur un rythme libre, nous recommandons néanmoins de mobiliser 1h de travail personnel par jour.',
             accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM et lors des temps d’échanges en anglais avec le formateur <br> La certiﬁcation des compétences se déroule lors d’un test adaptatif d’une heure réalisé à distance avec une surveillance en ligne.',
-            certificat:'Certiﬁcation en anglais LanguageCert Test of English LTE (écouter, lire) – niveaux A1-C2 (RS5453).',
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h
+            - Support de cours téléchargeables
+            - Plateforme avec accès pour la durée de la formation`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'Certification en anglais LanguageCert Test of English LTE (écouter, lire) - niveaux A1-C2 (RS5453)',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -200,18 +236,29 @@ export const anglais =[
         page_detail:'/fomationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'ANGLAISDEB6_APP',
+            ref:'anglais4',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toutes les personnes dont l’anglais n’est pas la langue maternelle et qui souhaitent améliorer leurs compétences d’écoute et de lecture aﬁn de renforcer leur employabilité.',//
+            public_target:'La formation est ouverte à toutes les personnes dont l’anglais n’est pas la langue maternelle et qui souhaitent améliorer leurs compétences d’écoute et de lecture afin de renforcer leur employabilité.',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur, d’une webcam, d’un micro et d’une connexion internet.',
-            financement:'par le CPF',
-            rythme:'la formation peut être suivie sur un rythme libre,nous recommandons néanmoins de mobiliser 1h de travail personnel par jour.',
+            stuff:'disposer d’un ordinateur et d’une connexion internet.',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'la formation peut être suivie sur un rythme libre, nous recommandons néanmoins de mobiliser 1h de travail personnel par jour.',
             accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM et lors des temps d’échanges en anglais avec le formateur <br> La certiﬁcation des compétences se déroule lors d’un test adaptatif d’une heure réalisé à distance avec une surveillance en ligne.',
-            certificat:'Certiﬁcation en anglais LanguageCert Test of English LTE (écouter, lire) – niveaux A1-C2 (RS5453).',
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h
+            - Support de cours téléchargeables
+            - Plateforme avec accès pour la durée de la formation`,
+            evaluation:{
+                avant:'test de positionnement',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'Certification en anglais LanguageCert Test of English LTE (écouter, lire) - niveaux A1-C2 (RS5453)',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'

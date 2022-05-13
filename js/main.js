@@ -16,6 +16,9 @@ const formaAccueil = accueilFormation;
 /*contact info*/
 const infoHTML = () => {
   let info = `
+  <div class="info-group">
+     <img class="img-profil" src="${userInfo.img}"/>
+  </div>
     <div class="info-group">
     <i class="fa fa-phone"></i>
        <p><strong>Téléphone :</strong><br>${userInfo.phone}</p>
@@ -73,7 +76,7 @@ const FooterHTML = () => {
                 <div class="row">
                     <div class="col-lg-4">
                         <h4>TEMPLATE MlM</h4>
-                        <img src=${userInfo.img_user} alt="">
+                        <img class="img-profil" src="${userInfo.img}"/>
                     </div>
                     <div class="col-lg-4">
                         <h4>MENU</h4>

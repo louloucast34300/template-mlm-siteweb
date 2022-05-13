@@ -7,18 +7,18 @@ export const bilan = [
         price:'1.000€',
         type: 'BILAN DE COMPETENCE',
         level:'Débutant',
-        img:'../images/formations/bilan1.png',
+        img:'../images/formations/bilan0.png',
         page_detail:'/formationDetail.html',
         page_CPF:'#',
         info:{
-            ref:'ANGLAISDEB2_APP',
+            ref:'bilan1',
             version:'28/04/2022',
-            public_target:'Tout public actif en emploi ou en recherche d’emploi, tous secteurs confondus et ce quel que soit le niveau d’étude ou de statut.',//
+            public_target:'Tout public actif en emploi ou en recherche d’emploi, tous secteurs confondus et ce quel que soit le niveau d’étude ou de statut',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
             rythme:'À définir avec le bénéficiaire',
             accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
             pedagogie : `<br/>Le bilan de compétences s’appuie sur une alternance de rendez-vous individuels en visioconférence et de travaux guidés sur différents supports réflexifs :<br/>
@@ -31,7 +31,7 @@ export const bilan = [
                 fin:'questionnaire de satisfaction',
                 apres:'questionnaire de suivi à 6 mois',
             },
-            certificat:'Certiﬁcation en anglais LanguageCert Test of English LTE (écouter, lire) – niveaux A1-C2 (RS5453).',
+            certificat:'Bilan de compétences.',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -78,22 +78,27 @@ export const bilan = [
         page_detail:'/formationDetail.html',
         page_CPF:'#',
         info:{
-            ref:'ANGLAISDEB2_APP',
+            ref:'bilan2',
             version:'28/04/2022',
-            public_target:'Tout public actif en emploi ou en recherche d’emploi, tous secteurs confondus et ce quel que soit le niveau d’étude ou de statut.',//
+            public_target:'Tout public actif en emploi ou en recherche d’emploi, tous secteurs confondus et ce quel que soit le niveau d’étude ou de statut',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
             rythme:'À définir avec le bénéficiaire',
             accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
             pedagogie : `<br/>Le bilan de compétences s’appuie sur une alternance de rendez-vous individuels en visioconférence et de travaux guidés sur différents supports réflexifs :<br/>
             - Des tests de personnalité, d’intérêts et de motivation sur l’outil Pass’Avenir<br/>
             - Des tests d’évaluation des compétences transversales avec l’outil Transférence<br/>
             - Une base documentaire riche de +1200 fiches métiers contenant des informations sur le tissu professionnel territorial et les évolutions du marché`,
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM et lors des temps d’échanges en anglais avec le formateur <br> La certiﬁcation des compétences se déroule lors d’un test adaptatif d’une heure réalisé à distance avec une surveillance en ligne.',
-            certificat:'Certiﬁcation en anglais LanguageCert Test of English LTE (écouter, lire) – niveaux A1-C2 (RS5453).',
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:'Sur Pass-Avenir : évaluation de la personnalité, des intérêts, du profil professionnel, des aptitudes et des conditions de travail souhaitées. Sur Transférence : évaluation des compétences transversales',
+                fin:'questionnaire de satisfaction',
+                apres:'questionnaire de suivi à 6 mois',
+            },
+            certificat:'Bilan de compétences.',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -136,26 +141,31 @@ export const bilan = [
         price:'2.700€',
         type: 'BILAN DE COMPETENCE',
         level:'Débutant',
-        img:'../images/formations/bilan1.png',
+        img:'../images/formations/bilan2.png',
         page_detail:'/formationDetail.html',
         page_CPF:'#',
         info:{
-            ref:'ANGLAISDEB2_APP',
+            ref:'bilan3',
             version:'28/04/2022',
-            public_target:'Tout public actif en emploi ou en recherche d’emploi, tous secteurs confondus et ce quel que soit le niveau d’étude ou de statut.',//
+            public_target:'Tout public actif en emploi ou en recherche d’emploi, tous secteurs confondus et ce quel que soit le niveau d’étude ou de statut',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
             rythme:'À définir avec le bénéficiaire',
             accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
             pedagogie : `<br/>Le bilan de compétences s’appuie sur une alternance de rendez-vous individuels en visioconférence et de travaux guidés sur différents supports réflexifs :<br/>
             - Des tests de personnalité, d’intérêts et de motivation sur l’outil Pass’Avenir<br/>
             - Des tests d’évaluation des compétences transversales avec l’outil Transférence<br/>
             - Une base documentaire riche de +1200 fiches métiers contenant des informations sur le tissu professionnel territorial et les évolutions du marché`,
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM et lors des temps d’échanges en anglais avec le formateur <br> La certiﬁcation des compétences se déroule lors d’un test adaptatif d’une heure réalisé à distance avec une surveillance en ligne.',
-            certificat:'Certiﬁcation en anglais LanguageCert Test of English LTE (écouter, lire) – niveaux A1-C2 (RS5453).',
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:'Sur Pass-Avenir : évaluation de la personnalité, des intérêts, du profil professionnel, des aptitudes et des conditions de travail souhaitées. Sur Transférence : évaluation des compétences transversales',
+                fin:'questionnaire de satisfaction',
+                apres:'questionnaire de suivi à 6 mois',
+            },
+            certificat:'Bilan de compétences.',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -198,26 +208,31 @@ export const bilan = [
         price:'3.500€',
         type: 'BILAN DE COMPETENCE',
         level:'Débutant',
-        img:'../images/formations/bilan1.png',
+        img:'../images/formations/bilan3.png',
         page_detail:'/formationDetail.html',
         page_CPF:'#',
-        info:{
-            ref:'ANGLAISDEB2_APP',
+              info:{
+            ref:'bilan4',
             version:'28/04/2022',
-            public_target:'Tout public actif en emploi ou en recherche d’emploi, tous secteurs confondus et ce quel que soit le niveau d’étude ou de statut.',//
+            public_target:'Tout public actif en emploi ou en recherche d’emploi, tous secteurs confondus et ce quel que soit le niveau d’étude ou de statut',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
             stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
             rythme:'À définir avec le bénéficiaire',
             accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
             pedagogie : `<br/>Le bilan de compétences s’appuie sur une alternance de rendez-vous individuels en visioconférence et de travaux guidés sur différents supports réflexifs :<br/>
             - Des tests de personnalité, d’intérêts et de motivation sur l’outil Pass’Avenir<br/>
             - Des tests d’évaluation des compétences transversales avec l’outil Transférence<br/>
             - Une base documentaire riche de +1200 fiches métiers contenant des informations sur le tissu professionnel territorial et les évolutions du marché`,
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM et lors des temps d’échanges en anglais avec le formateur <br> La certiﬁcation des compétences se déroule lors d’un test adaptatif d’une heure réalisé à distance avec une surveillance en ligne.',
-            certificat:'Certiﬁcation en anglais LanguageCert Test of English LTE (écouter, lire) – niveaux A1-C2 (RS5453).',
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:'Sur Pass-Avenir : évaluation de la personnalité, des intérêts, du profil professionnel, des aptitudes et des conditions de travail souhaitées. Sur Transférence : évaluation des compétences transversales',
+                fin:'questionnaire de satisfaction',
+                apres:'questionnaire de suivi à 6 mois',
+            },
+            certificat:'Bilan de compétences.',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'

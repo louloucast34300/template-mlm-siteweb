@@ -15,22 +15,33 @@ export const dietetique =[
         price:'1.000€',
         type: 'SANTÉ & BEAUTÉ​',
         level:'Débutant',
-        img:'../images/formations/dietetique1.png',
+        img:'../images/formations/dietetique0.png',
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'DIETETIQUE1_APP',
+            ref:'diététique1',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite se former sur les bases scientifiques de la diététique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite se former sur les bases scientifiques de la diététique.',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Bloc 5 du BTS diététique – épreuve E1B.',
+            stuff:`disposer d’un ordinateur et d’une connexion internet.`,
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'bloc 5 du BTS diététique - épreuve E1B',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -81,18 +92,29 @@ export const dietetique =[
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'DIETETIQUE1_APP',
+            ref:'diététique2',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite se former sur les bases scientifiques de la diététique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite se former sur les bases scientifiques de la diététique.',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Bloc 5 du BTS diététique – épreuve E1B.',
+            stuff:`disposer d’un ordinateur et d’une connexion internet.`,
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'bloc 5 du BTS diététique - épreuve E1B',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -147,18 +169,29 @@ export const dietetique =[
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'DIETETIQUE2_APP',
+            ref:'diététique3',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite se former sur les bases scientifiques de la diététique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite se former sur les bases scientifiques de la diététique.',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Bloc 5 du BTS diététique – épreuve E1B.',
+            stuff:`disposer d’un ordinateur et d’une connexion internet.`,
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'bloc 5 du BTS diététique - épreuve E1B',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
@@ -212,18 +245,29 @@ export const dietetique =[
         page_detail:'/formationDetail.html',
         page_CPF:"#",
         info:{
-            ref:'DIETETIQUE3_APP',
+            ref:'diététique4',
             version:'28/04/2022',
-            public_target:'La formation est ouverte à toute personne qui souhaite se former sur les bases scientifiques de la diététique.',
+            public_target:'La formation est ouverte à toute personne qui souhaite se former sur les bases scientifiques de la diététique.',//
             level_entry:'pas de prérequis',
             xp_pro:'pas de prérequis',
             langue:'pas de prérequis',
-            stuff:'disposer d’un ordinateur et d’une connexion internet.',
-            financement:'par le CPF',
-            CGV:'Les Conditions Générales de Vente (incluant les conditions d’utilisation de la plateforme) sont librement accessibles sur notre site internet et sont communiquées pour signature par email au moment de la contractualisation.',
-            accompagnement:'Nos formations ont été conçues pour être réalisées en toute autonomie mais une équipe accompagnera le stagiaire pour s’assurer de sa réussite :<br> Des référents pédagogiques, administratifs, techniques et spécialiste handicap sont à votre disposition pendant votre formation.',
-            evaluation:'L’évaluation des compétences en cours de formation s’effectue par QCM.',
-            certificat:'Bloc 5 du BTS diététique – épreuve E1B.',
+            stuff:`disposer d’un ordinateur et d’une connexion internet.`,
+            financement:'par le CPF dans le cadre du parcours d’achat direct sur Mon Compte Formation',
+            rythme:'À définir avec le bénéficiaire',
+            accompagnement:`Dans le cadre de notre prestation, vous êtes accompagné par une équipe composée d'un référent pédagogique et administratif, d'un référent technique et d'un référent handicap.`,
+            pedagogie : `<br/>Conseillère dédiée pour favoriser la réussite de la formation avec un accompagnement pédagogique :<br/>
+            - Par téléphone et par mail<br/>
+            - Dans un délai de 24h<br/>
+            - Du lundi au vendredi de 9h à 17h<br/>
+            - Plateforme avec accès à vie + mises à jour de la formation<br/>
+            - Contenus additionnels d'aide à la valorisation des compétences`,
+            evaluation:{
+                avant:'évaluation des besoins lors d’un entretien en phase préliminaire',
+                pendant:`questionnaires d'évaluation formative des connaissances`,
+                fin:`évaluation sommative des connaissances questionnaire de satisfaction à chaud`,
+                apres:'questionnaire de satisfaction à froid',
+            },
+            certificat:'bloc 5 du BTS diététique - épreuve E1B',
             validation_partielle:'non',
             equivalence:'aucune',
             level_end:'sans niveau spécifique'
