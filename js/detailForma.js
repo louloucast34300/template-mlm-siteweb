@@ -51,7 +51,6 @@ const array = [];
     
 
     let formationTitle = `
-    <h5 class="organisme">APPICITY FORMATION</h5>
     <h1>ANGLAIS A1-C2 <br> Compréhension Orale et Écrite</h1>
     <h1><strong>${data[0].title}</strong></h1>`
     section1.innerHTML = formationTitle;
