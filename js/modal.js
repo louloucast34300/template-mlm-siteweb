@@ -8,9 +8,7 @@ const modalClosed = () => modalContainer.classList.remove('anim-close');
 
 buttonModal.addEventListener('click', e => modalContainer.classList.add('show'));
 
-if(window.location.pathname === "/"){
-buttonModal2.addEventListener('click', e => modalContainer.classList.add('show')); 
-}
+
 
 
 const closeModal = () =>{
