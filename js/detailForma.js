@@ -78,7 +78,7 @@ const array = [];
         </div>
         <div class="col-lg-3">
             <div class="right-block">
-                <a href="#" class="btn-inscription text-center"> S'INSCRIRE</a>
+                <a href="#" class="btn-inscription text-center"> ÇA M'INTÉRÈSSE !</a>
             <div class="flex-info">
                 <p>Catégorie:</p>
                 <p><strong>${data[0].type}</strong></p>
@@ -168,7 +168,7 @@ let formationPrerequis = `
     <p><span>Niveau de sortie: </span> ${data[0].info.level_end}</p>
 </div>
 <div class="details">
-    <h5 class="title-detail"><i class="fas fa-plus-square"></i>LES PLUS D'APPICITY</h5>
+    <h5 class="title-detail"><i class="fas fa-plus-square"></i>LES PLUS DE NOTRE CENTRE</h5>
     <p>La possibilité de se former à son rythme.</p>
     <p>Pas de contrainte géographique.</p>
     <p>Un accompagnement tout au long de la formation par une équipe à l’écoute et soucieuse de la réussite des apprenants.</p>

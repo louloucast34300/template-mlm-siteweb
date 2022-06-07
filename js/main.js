@@ -75,7 +75,7 @@ const FooterHTML = () => {
   let footer = `<div class="container">
                 <div class="row">
                     <div class="col-lg-4">
-                        <h4>TEMPLATE MlM</h4>
+                        <h4>Conseiller ${userInfo.username} ${userInfo.lastname}</h4>
                         <img class="img-profil" src="${userInfo.img}"/>
                     </div>
                     <div class="col-lg-4">
